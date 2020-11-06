@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <title>Centro Hospitalar da Universidade de Aveiro</title>
-    {% include 'tab_bar.html' %}
-</head>
+{% extends 'layout.html' %}
 
-<body>
+{% block content %}
     <p>
         <br>
         <h1 style="text-align: center;">Centro Hospitalar da Universidade de Aveiro</h1>
@@ -17,5 +11,4 @@
         <p style="text-align: center;"><br>93372 - MIGUEL &Acirc;NGELO FERNANDES DE ALMEIDA - almeida.m@ua.pt<br>
         84691 - TIAGO EMANUEL PEREIRA RODRIGUES - tiagoepr@ua.pt</p>
     </p>
-</body>
-</html>
+{% endblock %}
