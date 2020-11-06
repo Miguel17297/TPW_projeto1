@@ -29,6 +29,10 @@
                         <input type="submit" value="Log in" class="btn btn-default" />
                     </div>
                 </div>
+                <div class="form-group">
+                    <span>Ainda não tem conta ?<a href="{% url 'register' %}"> Registar</a></span>
+                </div>
+
                 {% if form.errors %}
                 <p class="validation-summary-errors">Please enter a correct user name and password.</p>
                 {% endif %}
