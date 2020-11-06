@@ -14,18 +14,25 @@ Grupo 7:
 
 // Updates
 
+> 06/11/2020 - Tiago
+1) Correção dos modelos
+2)
+
+> 06/11/2020 - Miguel
+1) migração de dados
+2) login
+3) navbar
+4) registo de conta
+
 > 05/11/2020 - Tiago
 1) Adicionado a página Home com template HTML básico
 2) Criação dos modelos e tabelas na base de dados
 3) Gestão de dados pelo Admin
 
 
-> 06/11/2020 - Miguel
+> xx/11/2020 - Miguel
 1) Projeto inicial com modelos
-2) migração de dados
-3) login
-4) navbar
-5)registo de conta
+
 
 
 

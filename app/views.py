@@ -19,7 +19,6 @@ def perfil(request):
     return render(request,'MeuPerfil.html',{})
 
 def servicosEnf(request):
-
     return render(request,'servicosEnf.html',{})
 
 def servicosAdmin(request):
@@ -27,6 +26,9 @@ def servicosAdmin(request):
 
 def especialiades(request):
     return render(request, 'especialidades.html', {})
+
+def consulta(request):
+    return render(request,'Consultas.html',{})
 
 def register(request):
     account=None

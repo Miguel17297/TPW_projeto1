@@ -27,6 +27,7 @@ urlpatterns = [
     path('servicos/adminstrativos',views.servicosAdmin,name='servAdmin'),
     path('servicos/Enfermagem',views.servicosEnf,name='servEnf'),
     path('servicos/especialidades',views.especialiades,name='especialidades'),
+    path('servicos/Consultas',views.consulta,name='consulta'),
     path('logout',auth_views.LogoutView.as_view(next_page='/'),name='logout'),
     path('contactos/', views.contacts, name='cont'),
     path('perfil',views.perfil,name='perfil')

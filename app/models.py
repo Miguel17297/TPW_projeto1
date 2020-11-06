@@ -17,7 +17,7 @@ class Medico(models.Model):
 
     # Pacientes # Existem vários pacientes para cada médico
     def __str__(self):
-        return self.name
+        return self.nome
 
 
 class Medicamento(models.Model):
@@ -25,12 +25,14 @@ class Medicamento(models.Model):
     laboratorio = models.CharField(max_length=50)
 
     def __str__(self):
-        return self.name
+        return self.nome
 
 
 class Quarto(models.Model):
     numero = models.IntegerField()
     limite = models.IntegerField()
+    def __str__(self):
+        return self.numero
 
 
 class Paciente(models.Model):
@@ -53,7 +55,7 @@ class Paciente(models.Model):
 
 
     def __str__(self):
-        return self.name
+        return self.nome
 
 
 class Paciente_Medicacao(models.Model): # normalização
@@ -62,6 +64,8 @@ class Paciente_Medicacao(models.Model): # normalização
     medicamento=models.ForeignKey(Medicamento,
                                on_delete=models.CASCADE)
     modo_de_medicacao=models.CharField(max_length=200)  # A ser escrito pelo médico para cada paciente específico
+    def __str__(self):
+        return self.paciente
 
 
 class HistoricoClinico(models.Model):
@@ -70,6 +74,8 @@ class HistoricoClinico(models.Model):
     data=models.DateField()
     anotacao = models.CharField(max_length=500) # A ser escrito pelo médico para cada paciente específico
 
+    def __str__(self):
+        return self.paciente
 
 class Enfermeiro(models.Model):
     nmec = models.IntegerField()
@@ -82,6 +88,8 @@ class Enfermeiro(models.Model):
     quarto = models.ManyToManyField(Quarto)
 
     ## Horário
+    def __str__(self):
+        return self.nome
 
 
 
