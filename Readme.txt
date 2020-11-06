@@ -8,7 +8,7 @@ Grupo 7:
 
 
 // funcionalidades a implementar
-registo(conta)
+
 
 
 
@@ -20,11 +20,12 @@ registo(conta)
 3) Gestão de dados pelo Admin
 
 
-> 04/11/2020 - Miguel
+> 06/11/2020 - Miguel
 1) Projeto inicial com modelos
 2) migração de dados
 3) login
-4) navbar // falta corrigir o dropdown
+4) navbar
+5)registo de conta
 
 
 

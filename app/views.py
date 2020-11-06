@@ -18,6 +18,15 @@ def contacts(request):
 def perfil(request):
     return render(request,'MeuPerfil.html',{})
 
+def servicosEnf(request):
+
+    return render(request,'servicosEnf.html',{})
+
+def servicosAdmin(request):
+    return render(request, 'servicosAdmin.html', {})
+
+def especialiades(request):
+    return render(request, 'especialidades.html', {})
 
 def register(request):
     account=None
