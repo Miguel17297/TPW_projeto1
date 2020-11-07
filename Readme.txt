@@ -9,7 +9,7 @@ Grupo 7:
 
 // Funcionalidades a implementar
 > Como implementar a criação/edição de user com o email e pass que o médico/enfermeiro colocam?
-> Página de serviços administrativos
+> Tiago: Página de serviços administrativos, Especialidades, Serviços de Enfermagem
 
 
 // Anotações
