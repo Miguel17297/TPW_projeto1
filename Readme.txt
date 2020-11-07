@@ -8,15 +8,17 @@ Grupo 7:
 
 
 // funcionalidades a implementar
-
+> Colocar Especialidade como nova class
+>
 
 
 
 // Updates
 
-> 06/11/2020 - Tiago
+> 07/11/2020 - Tiago
 1) Correção dos modelos
-2)
+2) Criação de grupos de utilizadores
+3) Adaptação do menu e templates
 
 > 06/11/2020 - Miguel
 1) migração de dados
