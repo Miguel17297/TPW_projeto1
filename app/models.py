@@ -2,12 +2,20 @@ from django.db import models
 
 
 # Create your models here.
+class Especialidade(models.Model):
+    designacao = models.CharField(max_length=70)
+    bloco = models.CharField(max_length=2)
+
+    def __str__(self):
+        return self.designacao
 
 class Medico(models.Model):
     nmec = models.IntegerField()
     nome = models.CharField(max_length=70)
     cc = models.IntegerField()
-    especialidade = models.CharField(max_length=40)
+    # especialidade = models.CharField(max_length=40)
+    especialidade = models.ForeignKey(Especialidade,on_delete=models.CASCADE)
+    # Um médico apenas tem uma especialidade, mas uma especialidade pode ter vários médicos
     gabinte = models.IntegerField()
     ncedulaprofissional = models.IntegerField()
     email = models.EmailField()

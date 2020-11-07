@@ -7,10 +7,13 @@ Grupo 7:
 84691 - TIAGO EMANUEL PEREIRA RODRIGUES - tiagoepr@ua.pt
 
 
-// funcionalidades a implementar
-> Colocar Especialidade como nova class
->
+// Funcionalidades a implementar
+> Como implementar a criação/edição de user com o email e pass que o médico/enfermeiro colocam?
+> Página de serviços administrativos
 
+
+// Anotações
+> Não faz muito sentido haver sitio para "Registo de utilizador" no site publico. Proponho haver uma página com URL não publico para o efeito onde seja possível criar um novo médico/Enfermeiro/Administrador.
 
 
 // Updates
@@ -19,6 +22,8 @@ Grupo 7:
 1) Correção dos modelos
 2) Criação de grupos de utilizadores
 3) Adaptação do menu e templates
+4) Criação de uma class de Especialidade
+5) Povoação da Base de Dados
 
 > 06/11/2020 - Miguel
 1) migração de dados
